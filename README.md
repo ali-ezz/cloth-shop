@@ -1,58 +1,71 @@
-# 🛒 Modern Online Shopping Platform
+# Cloth Shop
 
-**University Course Project – COM209: Internet Technology**  
-**Faculty of Computers and Information, Helwan University**  
-**Spring Semester 2024/2025**
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/ali-ezz/cloth-shop)](https://github.com/ali-ezz/cloth-shop/issues)
+[![GitHub language count](https://img.shields.io/github/languages/count/ali-ezz/cloth-shop)](https://github.com/ali-ezz/cloth-shop)
 
----
+A responsive clothing and accessories e-commerce website built with vanilla HTML, CSS, and JavaScript.
 
-## 📌 Overview
+## Overview
 
-A fully responsive, multi-theme e-commerce web application developed as part of a team project. The platform offers a personalized shopping experience for fashion and accessories, with advanced UI/UX features and modular design. Implemented using vanilla HTML, CSS, and JavaScript, this project demonstrates mastery in front-end development, interactivity, and usability principles.
+This project is a shopping platform prototype for fashion and accessories. It includes category navigation, cart and wishlist behavior, theme modes, and mobile-friendly layouts.
 
----
+## Quick Start
 
-## 🎯 Features
+### Run locally
 
-- ✅ Multi-theme layout support  
-- ✅ Login & Registration system  
-- ✅ Product categories & advanced search  
-- ✅ Wishlist and Cart with persistent data  
-- ✅ Customer reviews and product ratings  
-- ✅ Responsive and accessible design  
-- ✅ JavaScript-based interactivity and validation  
-- ✅ Organized modular folder structure
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/ali-ezz/cloth-shop.git
+   cd cloth-shop
+   ```
+2. Open `index.html` in a browser.
 
----
+### Optional local development server
 
-## 🛠 Technologies Used
+If you have a static server installed:
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- DOM Manipulation  
-- Responsive Design Principles  
-- Git & GitHub  
+```bash
+npm install -g live-server
+live-server
+```
 
----
+Then open `http://127.0.0.1:8080`.
 
-## 📄 Documentation
+## Features
 
-A complete `doc.md` file is included in the project, covering:
+- Responsive shopping pages for men, women, kids, and accessories
+- Cart and wishlist interactions
+- Product category navigation
+- Login and signup flows with validation UI
+- Privacy, returns, and policy pages
+- Clean HTML/CSS structure with JavaScript interactions
 
-- Objective & Scope  
-- User Interface Planning  
-- Feature Implementation  
-- Accessibility Considerations  
-- Testing & Evaluation  
-- Challenges and Reflections  
+## File layout
 
----
+- `index.html` — Homepage
+- `mens.html`, `womens.html`, `child.html`, `accessories.html`, `sneaker.html` — product category pages
+- `cart.html`, `wishlist.html` — shopping interaction pages
+- `login-sginup.html` — authentication screens
+- `privacy.html`, `terms-conditions.html`, `return-policy.html`, `faq.html` — policy pages
+- `style.css`, `styles.css`, `contributors.css`, `preloaderStyle.css` — styling
+- `script/` — JavaScript behavior files
+- `fonts/` and `images/` — static assets
+- `doc.md` — project documentation and analysis
 
-## 👥 Contributors
+## Contribution
 
-Developed by a team of 5 students  
-**COM209 – Internet Technology**  
-Helwan University, 2025  
+Please use the GitHub issue templates when reporting bugs or requesting features. Review `CONTRIBUTING.md` for branch naming and PR expectations.
 
----
+## Repository metadata
+
+- License: MIT
+- Code of Conduct: `CODE_OF_CONDUCT.md`
+- Security: `SECURITY.md`
+- Issue templates: `.github/ISSUE_TEMPLATE/`
+- Pull request template: `.github/PULL_REQUEST_TEMPLATE.md`
+- Code owners: `.github/CODEOWNERS`
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
